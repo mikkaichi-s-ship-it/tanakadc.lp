@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>インプラント治療｜たなか歯科クリニック【兵庫県たつの市】</title>
+  <meta name="description" content="たつの市のたなか歯科クリニック。歯学博士・補綴専門の院長が大学病院レベルのインプラント治療を提供。まずは無料カウンセリングへ。" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: {
+              50:  '#eef2f9',
+              100: '#d5dfef',
+              200: '#abc0de',
+              300: '#7a9dcc',
+              400: '#4f7dba',
+              500: '#2f5fa5',
+              600: '#1e4688',
+              700: '#163368',
+              800: '#0e2249',
+              900: '#081530',
+            },
+            gold: {
+              400: '#f5a623',
+              500: '#e8950f',
+              600: '#c97e00',
+            },
+          },
+          fontFamily: {
+            sans: ['"Noto Sans JP"', 'sans-serif'],
+            serif: ['"Noto Serif JP"', 'serif'],
+          },
+        },
+      },
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Noto Sans JP', sans-serif; }
+
+    /* Hero gradient */
+    .hero-bg {
+      background: linear-gradient(135deg, #081530 0%, #0e2249 40%, #163368 70%, #1e4688 100%);
+    }
+
+    /* Section divider wave */
+    .wave-divider {
+      position: relative;
+    }
+    .wave-divider::after {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      width: 100%;
+      height: 60px;
+      background: white;
+      clip-path: ellipse(55% 100% at 50% 100%);
+    }
+
+    /* Reason card hover */
+    .reason-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .reason-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 40px rgba(8, 21, 48, 0.18);
+    }
+
+    /* CTA button pulse */
+    .cta-pulse {
+      animation: pulse-glow 2.5s infinite;
+    }
+    @keyframes pulse-glow {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(245, 166, 35, 0.5); }
+      50%       { box-shadow: 0 0 0 12px rgba(245, 166, 35, 0); }
+    }
+
+    /* Step connector */
+    .step-line {
+      position: absolute;
+      left: 50%;
+      top: 100%;
+      width: 2px;
+      height: 40px;
+      background: linear-gradient(to bottom, #2f5fa5, #7a9dcc);
+      transform: translateX(-50%);
+    }
+
+    /* FAQ accordion */
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+    }
+    .faq-item.open .faq-answer {
+      max-height: 500px;
+    }
+    .faq-item.open .faq-icon {
+      transform: rotate(45deg);
+    }
+    .faq-icon {
+      transition: transform 0.3s ease;
+    }
+
+    /* Sticky header */
+    #sticky-header {
+      transition: background 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* Gradient text */
+    .gradient-text {
+      background: linear-gradient(90deg, #2f5fa5, #4f7dba);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    /* Section heading underline */
+    .section-heading::after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 4px;
+      background: linear-gradient(90deg, #2f5fa5, #f5a623);
+      border-radius: 2px;
+      margin: 14px auto 0;
+    }
+
+    /* Worry list item */
+    .worry-item {
+      border-left: 4px solid #2f5fa5;
+    }
+
+    /* Map placeholder */
+    .map-placeholder {
+      background: linear-gradient(135deg, #d5dfef 0%, #abc0de 100%);
+    }
+  </style>
+</head>
+<body class="text-navy-900">
+
+<!-- ============================================================
+     STICKY HEADER
+     ============================================================ -->
+<header id="sticky-header" class="fixed top-0 left-0 right-0 z-50 bg-navy-900/95 backdrop-blur-sm shadow-lg">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <div class="flex flex-col">
+      <span class="text-white font-bold text-lg leading-tight tracking-wide">たなか歯科クリニック</span>
+      <span class="text-navy-200 text-xs">兵庫県たつの市｜インプラント専門</span>
+    </div>
+    <a
+      href="https://www.mrweb-yoyakuv.com/sikatanaka/login/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="cta-pulse bg-gold-400 hover:bg-gold-500 text-white font-bold text-sm px-4 py-2.5 rounded-full transition-colors duration-200 whitespace-nowrap shadow-lg"
+    >
+      無料カウンセリング予約
+    </a>
+  </div>
+</header>
+
+
+<!-- ============================================================
+     1. HERO SECTION
+     ============================================================ -->
+<section class="hero-bg relative min-h-screen flex items-center pt-16 pb-24 overflow-hidden">
+  <!-- Background decoration -->
+  <div class="absolute inset-0 overflow-hidden pointer-events-none">
+    <div class="absolute -top-20 -right-20 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 -left-20 w-80 h-80 bg-navy-400/10 rounded-full blur-3xl"></div>
+    <!-- Cross / plus decorations -->
+    <div class="absolute top-1/4 right-1/4 text-white/5 text-9xl font-thin select-none">＋</div>
+    <div class="absolute bottom-1/3 left-1/3 text-white/5 text-7xl font-thin select-none">＋</div>
+  </div>
+
+  <div class="max-w-5xl mx-auto px-6 relative z-10 text-center">
+    <!-- Badge -->
+    <span class="inline-block bg-gold-400/20 border border-gold-400/60 text-gold-400 text-sm font-bold px-5 py-2 rounded-full mb-8 tracking-widest">
+      歯学博士・補綴専門医による高度インプラント治療
+    </span>
+
+    <!-- Main headline -->
+    <h1 class="text-white font-black text-4xl md:text-6xl leading-tight mb-6" style="font-family:'Noto Serif JP',serif;">
+      大学病院レベルの<br class="hidden md:block" />
+      <span class="text-gold-400">精密なインプラント</span>を、<br />
+      たつの市で。
+    </h1>
+
+    <!-- Sub headline -->
+    <p class="text-navy-200 text-lg md:text-2xl font-light mb-6 leading-relaxed">
+      歯学博士・補綴の専門家が、<br class="md:hidden" />あなたの<strong class="text-white font-medium">"噛む喜び"</strong>を<br class="md:hidden" />責任を持って取り戻します。
+    </p>
+
+    <!-- Body copy -->
+    <p class="text-navy-300 text-sm md:text-base max-w-2xl mx-auto mb-12 leading-7">
+      失った歯への不安、インプラントへの怖さ——。<br />
+      大阪歯科大学附属病院で<strong class="text-navy-100">医局長・講師</strong>を務めた院長が、<br />
+      確かな技術と丁寧な診断であなたの治療に真摯に向き合います。
+    </p>
+
+    <!-- CTA Buttons -->
+    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+      <a
+        href="https://www.mrweb-yoyakuv.com/sikatanaka/login/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="cta-pulse bg-gold-400 hover:bg-gold-500 text-white font-black text-lg px-10 py-5 rounded-full transition-all duration-200 shadow-2xl w-full sm:w-auto"
+      >
+        🦷 無料カウンセリングのWEB予約はこちら
+      </a>
+    </div>
+
+    <p class="text-navy-400 text-xs mt-5">
+      ※カウンセリングは完全無料・強引な勧誘は一切ございません
+    </p>
+
+    <!-- Trust indicators -->
+    <div class="mt-14 grid grid-cols-3 gap-4 max-w-lg mx-auto">
+      <div class="text-center">
+        <div class="text-gold-400 text-2xl font-black">歯学博士</div>
+        <div class="text-navy-300 text-xs mt-1">院長の称号</div>
+      </div>
+      <div class="text-center border-x border-navy-700">
+        <div class="text-gold-400 text-2xl font-black">補綴専攻</div>
+        <div class="text-navy-300 text-xs mt-1">専門分野</div>
+      </div>
+      <div class="text-center">
+        <div class="text-gold-400 text-2xl font-black">大学病院</div>
+        <div class="text-navy-300 text-xs mt-1">医局長歴任</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Wave bottom -->
+  <div class="absolute bottom-0 left-0 right-0">
+    <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="white"/>
+    </svg>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     2. WORRY SECTION
+     ============================================================ -->
+<section class="bg-white py-20 px-6">
+  <div class="max-w-4xl mx-auto">
+    <div class="text-center mb-12">
+      <p class="text-navy-400 text-sm font-bold tracking-widest uppercase mb-3">Patient's Concern</p>
+      <h2 class="section-heading text-3xl md:text-4xl font-black text-navy-900" style="font-family:'Noto Serif JP',serif;">
+        インプラント、気になっているけれど…<br />
+        <span class="text-navy-600 text-2xl md:text-3xl">こんな不安はありませんか？</span>
+      </h2>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-5">
+      <!-- Worry items -->
+      <div class="worry-item bg-navy-50 rounded-2xl p-6 flex items-start gap-4">
+        <span class="text-3xl flex-shrink-0">😰</span>
+        <div>
+          <p class="font-bold text-navy-800 text-lg">"失敗したらどうしよう…"</p>
+          <p class="text-navy-600 text-sm mt-1">手術が怖い、うまくいかなかった話を聞いて不安になっている</p>
+        </div>
+      </div>
+      <div class="worry-item bg-navy-50 rounded-2xl p-6 flex items-start gap-4">
+        <span class="text-3xl flex-shrink-0">🔍</span>
+        <div>
+          <p class="font-bold text-navy-800 text-lg">"腕のいい先生に診てほしい"</p>
+          <p class="text-navy-600 text-sm mt-1">近くに信頼できる技術力のある歯科医師がいるか分からない</p>
+        </div>
+      </div>
+      <div class="worry-item bg-navy-50 rounded-2xl p-6 flex items-start gap-4">
+        <span class="text-3xl flex-shrink-0">😣</span>
+        <div>
+          <p class="font-bold text-navy-800 text-lg">"入れ歯が合わなくて毎日つらい"</p>
+          <p class="text-navy-600 text-sm mt-1">外れる・痛い・食事が楽しめないストレスをずっと抱えている</p>
+        </div>
+      </div>
+      <div class="worry-item bg-navy-50 rounded-2xl p-6 flex items-start gap-4">
+        <span class="text-3xl flex-shrink-0">🎂</span>
+        <div>
+          <p class="font-bold text-navy-800 text-lg">"年齢的に大丈夫か心配"</p>
+          <p class="text-navy-600 text-sm mt-1">自分の年齢でインプラントは適用できるのか不安に思っている</p>
+        </div>
+      </div>
+      <div class="worry-item bg-navy-50 rounded-2xl p-6 flex items-start gap-4">
+        <span class="text-3xl flex-shrink-0">💰</span>
+        <div>
+          <p class="font-bold text-navy-800 text-lg">"費用が心配"</p>
+          <p class="text-navy-600 text-sm mt-1">高額では？保険は効くの？詳しく知りたいけど聞きにくい</p>
+        </div>
+      </div>
+      <div class="worry-item bg-navy-50 rounded-2xl p-6 flex items-start gap-4">
+        <span class="text-3xl flex-shrink-0">🏥</span>
+        <div>
+          <p class="font-bold text-navy-800 text-lg">"大学病院へ行くのは敷居が高い"</p>
+          <p class="text-navy-600 text-sm mt-1">専門的な治療を受けたいが、大学病院は遠く予約も大変</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resolution message -->
+    <div class="mt-14 bg-gradient-to-r from-navy-800 to-navy-600 rounded-3xl p-8 text-center text-white shadow-2xl">
+      <p class="text-gold-400 font-bold text-sm tracking-widest mb-3">SOLUTION</p>
+      <p class="text-2xl md:text-3xl font-black leading-relaxed" style="font-family:'Noto Serif JP',serif;">
+        その不安、すべて<br />
+        <span class="text-gold-400">たなか歯科クリニック</span>で解消できます。
+      </p>
+      <p class="text-navy-200 mt-4 text-sm">
+        大学病院で培った技術と、地域に根ざした温かみのある医療で、あなたの不安に真摯にお応えします。
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     CTA BAND 1
+     ============================================================ -->
+<section class="bg-gold-400 py-8 px-6">
+  <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+    <div class="text-white text-center md:text-left">
+      <p class="font-black text-xl md:text-2xl">まずはお気軽にご相談ください</p>
+      <p class="text-white/80 text-sm mt-1">カウンセリング無料・強引な勧誘なし・秘密厳守</p>
+    </div>
+    <a
+      href="https://www.mrweb-yoyakuv.com/sikatanaka/login/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="bg-white hover:bg-navy-50 text-navy-900 font-black text-base px-8 py-4 rounded-full transition-colors duration-200 shadow-lg whitespace-nowrap flex-shrink-0"
+    >
+      → WEB予約はこちら
+    </a>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     3. REASONS SECTION
+     ============================================================ -->
+<section class="bg-navy-50 py-24 px-6">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-16">
+      <p class="text-navy-400 text-sm font-bold tracking-widest uppercase mb-3">Why Choose Us</p>
+      <h2 class="section-heading text-3xl md:text-4xl font-black text-navy-900" style="font-family:'Noto Serif JP',serif;">
+        たなか歯科クリニックが<br />
+        <span class="gradient-text">選ばれる3つの理由</span>
+      </h2>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <!-- Reason 1 -->
+      <div class="reason-card bg-white rounded-3xl p-8 shadow-lg border border-navy-100 text-center">
+        <div class="w-20 h-20 bg-gradient-to-br from-navy-600 to-navy-800 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
+          <span class="text-4xl">🦷</span>
+        </div>
+        <div class="inline-block bg-gold-400 text-white text-xs font-black px-4 py-1 rounded-full mb-4 tracking-wider">
+          REASON 01
+        </div>
+        <h3 class="text-navy-900 text-xl font-black mb-4 leading-snug" style="font-family:'Noto Serif JP',serif;">
+          補綴の専門家が<br />直接担当
+        </h3>
+        <p class="text-navy-600 text-sm leading-7">
+          院長は<strong class="text-navy-800">歯科補綴学</strong>を専門に修め、歯学博士を取得。補綴とは「失った歯を人工物で精密に補う」最も高度な分野です。インプラント体の埋入から人工歯のデザイン・咬合（噛み合わせ）調整まで、専門家が一貫してトータルデザインします。
+        </p>
+        <div class="mt-6 pt-6 border-t border-navy-100">
+          <span class="text-navy-400 text-xs">⭐ 歯学博士取得 ｜ 補綴学専攻</span>
+        </div>
+      </div>
+
+      <!-- Reason 2 -->
+      <div class="reason-card bg-white rounded-3xl p-8 shadow-lg border border-navy-100 text-center">
+        <div class="w-20 h-20 bg-gradient-to-br from-navy-600 to-navy-800 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
+          <span class="text-4xl">🏛️</span>
+        </div>
+        <div class="inline-block bg-gold-400 text-white text-xs font-black px-4 py-1 rounded-full mb-4 tracking-wider">
+          REASON 02
+        </div>
+        <h3 class="text-navy-900 text-xl font-black mb-4 leading-snug" style="font-family:'Noto Serif JP',serif;">
+          大学病院クラスの<br />圧倒的な実績と技術
+        </h3>
+        <p class="text-navy-600 text-sm leading-7">
+          院長は<strong class="text-navy-800">大阪歯科大学附属病院</strong>にて「高齢者歯科医局長・講師」を歴任。大学病院でしか経験できない難症例・複雑なケースを数多く手がけてきた実績があります。その高度な技術を、地域の皆様に身近な形でご提供します。
+        </p>
+        <div class="mt-6 pt-6 border-t border-navy-100">
+          <span class="text-navy-400 text-xs">⭐ 大阪歯科大学 医局長歴任 ｜ 講師歴任</span>
+        </div>
+      </div>
+
+      <!-- Reason 3 -->
+      <div class="reason-card bg-white rounded-3xl p-8 shadow-lg border border-navy-100 text-center">
+        <div class="w-20 h-20 bg-gradient-to-br from-navy-600 to-navy-800 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
+          <span class="text-4xl">🔬</span>
+        </div>
+        <div class="inline-block bg-gold-400 text-white text-xs font-black px-4 py-1 rounded-full mb-4 tracking-wider">
+          REASON 03
+        </div>
+        <h3 class="text-navy-900 text-xl font-black mb-4 leading-snug" style="font-family:'Noto Serif JP',serif;">
+          的確な診断力と<br />最新医療設備
+        </h3>
+        <p class="text-navy-600 text-sm leading-7">
+          最新の医療設備を完備し、<strong class="text-navy-800">本当に必要な検査だけを的確に見極める</strong>診断力が強みです。過剰な検査・治療を行わず、患者様一人ひとりの状態に合わせた最適な治療計画を立案。安全で無駄のない治療を実現します。
+        </p>
+        <div class="mt-6 pt-6 border-t border-navy-100">
+          <span class="text-navy-400 text-xs">⭐ 最新設備完備 ｜ 精密画像診断</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Comparison table -->
+    <div class="mt-16 bg-white rounded-3xl shadow-lg overflow-hidden border border-navy-100">
+      <div class="bg-navy-800 px-6 py-4">
+        <p class="text-white font-black text-center text-lg">たなか歯科クリニック vs 一般的な歯科医院</p>
+      </div>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-navy-50">
+              <th class="px-6 py-4 text-left text-navy-600 font-bold">比較項目</th>
+              <th class="px-6 py-4 text-center text-navy-900 font-black">たなか歯科クリニック</th>
+              <th class="px-6 py-4 text-center text-navy-400 font-bold">一般歯科医院</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-navy-100">
+            <tr>
+              <td class="px-6 py-4 font-medium text-navy-700">インプラントの専門知識</td>
+              <td class="px-6 py-4 text-center text-green-600 font-bold">✅ 歯学博士・補綴専攻</td>
+              <td class="px-6 py-4 text-center text-navy-400">△ 経験により異なる</td>
+            </tr>
+            <tr class="bg-navy-50/50">
+              <td class="px-6 py-4 font-medium text-navy-700">難症例への対応力</td>
+              <td class="px-6 py-4 text-center text-green-600 font-bold">✅ 大学病院レベル</td>
+              <td class="px-6 py-4 text-center text-navy-400">△ 大学病院へ紹介が多い</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 font-medium text-navy-700">診断の精度</td>
+              <td class="px-6 py-4 text-center text-green-600 font-bold">✅ 的確・必要な検査のみ</td>
+              <td class="px-6 py-4 text-center text-navy-400">△ 過剰検査になることも</td>
+            </tr>
+            <tr class="bg-navy-50/50">
+              <td class="px-6 py-4 font-medium text-navy-700">通院の手軽さ</td>
+              <td class="px-6 py-4 text-center text-green-600 font-bold">✅ たつの市・地域密着</td>
+              <td class="px-6 py-4 text-center text-navy-400">○ 近くにある</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     CTA BAND 2
+     ============================================================ -->
+<section class="bg-gradient-to-r from-navy-800 to-navy-600 py-12 px-6">
+  <div class="max-w-3xl mx-auto text-center">
+    <p class="text-gold-400 font-bold text-sm tracking-widest mb-3">FREE COUNSELING</p>
+    <h2 class="text-white text-2xl md:text-3xl font-black mb-4" style="font-family:'Noto Serif JP',serif;">
+      インプラントの相談、まず一歩踏み出しませんか？
+    </h2>
+    <p class="text-navy-200 text-sm mb-8">
+      「本当に自分に向いているか」「費用はどれくらいか」——すべて無料でお答えします。
+    </p>
+    <a
+      href="https://www.mrweb-yoyakuv.com/sikatanaka/login/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="cta-pulse inline-block bg-gold-400 hover:bg-gold-500 text-white font-black text-lg px-12 py-5 rounded-full transition-all duration-200 shadow-2xl"
+    >
+      まずはインプラントの相談をする →
+    </a>
+    <p class="text-navy-400 text-xs mt-4">無料 ｜ 強引な勧誘なし ｜ WEBから24時間予約可能</p>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     4. DOCTOR PROFILE SECTION
+     ============================================================ -->
+<section class="bg-white py-24 px-6">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-16">
+      <p class="text-navy-400 text-sm font-bold tracking-widest uppercase mb-3">Doctor Profile</p>
+      <h2 class="section-heading text-3xl md:text-4xl font-black text-navy-900" style="font-family:'Noto Serif JP',serif;">
+        院長あいさつ・プロフィール
+      </h2>
+    </div>
+
+    <div class="bg-gradient-to-br from-navy-50 to-white rounded-3xl shadow-xl overflow-hidden border border-navy-100">
+      <div class="md:flex">
+        <!-- Photo area -->
+        <div class="md:w-2/5 bg-gradient-to-br from-navy-800 to-navy-600 p-10 flex flex-col items-center justify-center text-center">
+          <!-- Doctor avatar placeholder -->
+          <div class="w-40 h-40 rounded-full bg-white/20 border-4 border-white/40 flex items-center justify-center mb-6 shadow-2xl">
+            <span class="text-7xl">👨‍⚕️</span>
+          </div>
+          <h3 class="text-white font-black text-2xl mb-1" style="font-family:'Noto Serif JP',serif;">田中 栄士</h3>
+          <p class="text-gold-400 text-sm font-bold mb-4">たなか えいじ</p>
+          <div class="space-y-2 text-left w-full">
+            <div class="flex items-center gap-2 text-navy-200 text-xs">
+              <span class="w-2 h-2 bg-gold-400 rounded-full flex-shrink-0"></span>
+              <span>歯学博士</span>
+            </div>
+            <div class="flex items-center gap-2 text-navy-200 text-xs">
+              <span class="w-2 h-2 bg-gold-400 rounded-full flex-shrink-0"></span>
+              <span>歯科補綴学 専攻</span>
+            </div>
+            <div class="flex items-center gap-2 text-navy-200 text-xs">
+              <span class="w-2 h-2 bg-gold-400 rounded-full flex-shrink-0"></span>
+              <span>大阪歯科大学附属病院 高齢者歯科医局長 歴任</span>
+            </div>
+            <div class="flex items-center gap-2 text-navy-200 text-xs">
+              <span class="w-2 h-2 bg-gold-400 rounded-full flex-shrink-0"></span>
+              <span>大阪歯科大学附属病院 講師 歴任</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Message area -->
+        <div class="md:w-3/5 p-8 md:p-12 flex flex-col justify-center">
+          <p class="text-gold-500 font-bold text-sm tracking-widest mb-4">DIRECTOR'S MESSAGE</p>
+          <div class="text-navy-700 text-base leading-8 space-y-4">
+            <p>
+              私はこれまで大阪歯科大学附属病院で、数多くの患者様のインプラント治療に携わってまいりました。
+            </p>
+            <p>
+              大学病院での長年の経験を通じて確信したのは、<strong class="text-navy-900">「適切な診断と技術があれば、インプラントは患者様の人生を劇的に変える治療である」</strong>ということです。
+            </p>
+            <p>
+              たなか歯科クリニックでは、地域の皆様に<strong class="text-navy-900">大学病院レベルの高度な医療</strong>を、より身近に・安心してお受けいただけるよう努めています。
+            </p>
+            <p>
+              一人ひとりの状態に合わせた丁寧な診断と治療計画で、あなたの笑顔をサポートします。まずはお気軽にご相談ください。
+            </p>
+          </div>
+          <div class="mt-8 flex items-center gap-4">
+            <div class="w-12 h-0.5 bg-gold-400"></div>
+            <p class="text-navy-800 font-black text-lg">田中 栄士 <span class="text-navy-400 font-normal text-sm ml-1">（歯学博士）</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     5. TREATMENT FLOW SECTION
+     ============================================================ -->
+<section class="bg-navy-900 py-24 px-6 relative">
+  <div class="max-w-4xl mx-auto relative z-10">
+    <div class="text-center mb-16">
+      <p class="text-navy-400 text-sm font-bold tracking-widest uppercase mb-3">Treatment Flow</p>
+      <h2 class="text-white text-3xl md:text-4xl font-black" style="font-family:'Noto Serif JP',serif;">
+        インプラント治療の流れ
+      </h2>
+      <div class="w-16 h-1 bg-gradient-to-r from-navy-500 to-gold-400 mx-auto mt-4 rounded-full"></div>
+      <p class="text-navy-300 mt-4 text-sm">初診からメンテナンスまで、一貫して院長が担当します。</p>
+    </div>
+
+    <div class="space-y-4">
+
+      <!-- Step 1 -->
+      <div class="flex items-start gap-6">
+        <div class="flex-shrink-0 flex flex-col items-center">
+          <div class="w-14 h-14 bg-gold-400 rounded-2xl flex items-center justify-center shadow-lg">
+            <span class="text-white font-black text-lg">01</span>
+          </div>
+          <div class="w-0.5 h-8 bg-navy-700 mt-2"></div>
+        </div>
+        <div class="bg-navy-800 rounded-2xl p-6 flex-1">
+          <div class="flex items-center gap-3 mb-2">
+            <span class="text-2xl">💬</span>
+            <h3 class="text-white font-black text-lg">無料カウンセリング・初診</h3>
+          </div>
+          <p class="text-navy-300 text-sm leading-6">お口の状態を確認しながら、インプラントへのご要望・ご不安を丁寧にお伺いします。費用感や治療期間など、気になることを何でもご質問ください。</p>
+        </div>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="flex items-start gap-6">
+        <div class="flex-shrink-0 flex flex-col items-center">
+          <div class="w-14 h-14 bg-navy-600 rounded-2xl flex items-center justify-center shadow-lg">
+            <span class="text-white font-black text-lg">02</span>
+          </div>
+          <div class="w-0.5 h-8 bg-navy-700 mt-2"></div>
+        </div>
+        <div class="bg-navy-800 rounded-2xl p-6 flex-1">
+          <div class="flex items-center gap-3 mb-2">
+            <span class="text-2xl">🔬</span>
+            <h3 class="text-white font-black text-lg">精密検査・診断</h3>
+          </div>
+          <p class="text-navy-300 text-sm leading-6">CT・レントゲン・口腔内検査などを実施。骨の状態・神経の位置・口腔衛生状態を正確に把握し、必要な検査だけを的確に選定します。</p>
+        </div>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="flex items-start gap-6">
+        <div class="flex-shrink-0 flex flex-col items-center">
+          <div class="w-14 h-14 bg-navy-600 rounded-2xl flex items-center justify-center shadow-lg">
+            <span class="text-white font-black text-lg">03</span>
+          </div>
+          <div class="w-0.5 h-8 bg-navy-700 mt-2"></div>
+        </div>
+        <div class="bg-navy-800 rounded-2xl p-6 flex-1">
+          <div class="flex items-center gap-3 mb-2">
+            <span class="text-2xl">📋</span>
+            <h3 class="text-white font-black text-lg">治療計画のご説明・同意</h3>
+          </div>
+          <p class="text-navy-300 text-sm leading-6">検査結果をわかりやすくご説明し、治療の流れ・費用・期間をご提案します。納得いただけてから治療を開始しますので、ご安心ください。</p>
+        </div>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="flex items-start gap-6">
+        <div class="flex-shrink-0 flex flex-col items-center">
+          <div class="w-14 h-14 bg-gold-400 rounded-2xl flex items-center justify-center shadow-lg">
+            <span class="text-white font-black text-lg">04</span>
+          </div>
+          <div class="w-0.5 h-8 bg-navy-700 mt-2"></div>
+        </div>
+        <div class="bg-navy-800 rounded-2xl p-6 flex-1 border border-gold-400/30">
+          <div class="flex items-center gap-3 mb-2">
+            <span class="text-2xl">🦷</span>
+            <h3 class="text-white font-black text-lg">インプラント手術</h3>
+            <span class="bg-gold-400/20 text-gold-400 text-xs font-bold px-2 py-1 rounded-full">メインステップ</span>
+          </div>
+          <p class="text-navy-300 text-sm leading-6">局所麻酔下で顎骨にインプラント体（チタン製の人工歯根）を埋入します。専門医による精密な手術で、痛みや腫れを最小限に抑えます。</p>
+        </div>
+      </div>
+
+      <!-- Step 5 -->
+      <div class="flex items-start gap-6">
+        <div class="flex-shrink-0 flex flex-col items-center">
+          <div class="w-14 h-14 bg-navy-600 rounded-2xl flex items-center justify-center shadow-lg">
+            <span class="text-white font-black text-lg">05</span>
+          </div>
+          <div class="w-0.5 h-8 bg-navy-700 mt-2"></div>
+        </div>
+        <div class="bg-navy-800 rounded-2xl p-6 flex-1">
+          <div class="flex items-center gap-3 mb-2">
+            <span class="text-2xl">⏳</span>
+            <h3 class="text-white font-black text-lg">骨との結合期間・経過観察</h3>
+          </div>
+          <p class="text-navy-300 text-sm leading-6">インプラントが顎骨としっかり結合するまで数ヶ月の治癒期間をとります。仮歯を装着して日常生活に支障がないよう対応します。</p>
+        </div>
+      </div>
+
+      <!-- Step 6 -->
+      <div class="flex items-start gap-6">
+        <div class="flex-shrink-0 flex flex-col items-center">
+          <div class="w-14 h-14 bg-navy-600 rounded-2xl flex items-center justify-center shadow-lg">
+            <span class="text-white font-black text-lg">06</span>
+          </div>
+          <div class="w-0.5 h-8 bg-navy-700 mt-2"></div>
+        </div>
+        <div class="bg-navy-800 rounded-2xl p-6 flex-1">
+          <div class="flex items-center gap-3 mb-2">
+            <span class="text-2xl">✨</span>
+            <h3 class="text-white font-black text-lg">最終補綴物（かぶせ物）の装着</h3>
+          </div>
+          <p class="text-navy-300 text-sm leading-6">補綴専門の院長が、咬合・審美性を精密にトータルデザイン。天然歯と見分けがつかない美しい人工歯を装着します。</p>
+        </div>
+      </div>
+
+      <!-- Step 7 -->
+      <div class="flex items-start gap-6">
+        <div class="flex-shrink-0">
+          <div class="w-14 h-14 bg-gradient-to-br from-navy-500 to-navy-700 rounded-2xl flex items-center justify-center shadow-lg">
+            <span class="text-white font-black text-lg">07</span>
+          </div>
+        </div>
+        <div class="bg-navy-800 rounded-2xl p-6 flex-1">
+          <div class="flex items-center gap-3 mb-2">
+            <span class="text-2xl">🔄</span>
+            <h3 class="text-white font-black text-lg">定期メンテナンス</h3>
+          </div>
+          <p class="text-navy-300 text-sm leading-6">インプラントを長持ちさせるために定期的なメンテナンスが大切です。歯科衛生士が丁寧にクリーニングし、インプラントの状態を継続的にチェックします。</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Background decoration -->
+  <div class="absolute inset-0 overflow-hidden pointer-events-none">
+    <div class="absolute top-0 right-0 w-64 h-64 bg-navy-800/50 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 w-64 h-64 bg-navy-800/50 rounded-full blur-3xl"></div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     CTA BAND 3
+     ============================================================ -->
+<section class="bg-gold-400 py-8 px-6">
+  <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+    <div class="text-white text-center md:text-left">
+      <p class="font-black text-xl md:text-2xl">治療の流れが気になりましたか？</p>
+      <p class="text-white/80 text-sm mt-1">まずは無料カウンセリングで、ご自身の状態を確認しましょう。</p>
+    </div>
+    <a
+      href="https://www.mrweb-yoyakuv.com/sikatanaka/login/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="bg-navy-900 hover:bg-navy-800 text-white font-black text-base px-8 py-4 rounded-full transition-colors duration-200 shadow-lg whitespace-nowrap flex-shrink-0"
+    >
+      → WEB予約はこちら
+    </a>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     6. FAQ SECTION
+     ============================================================ -->
+<section class="bg-white py-24 px-6">
+  <div class="max-w-3xl mx-auto">
+    <div class="text-center mb-16">
+      <p class="text-navy-400 text-sm font-bold tracking-widest uppercase mb-3">FAQ</p>
+      <h2 class="section-heading text-3xl md:text-4xl font-black text-navy-900" style="font-family:'Noto Serif JP',serif;">
+        よくあるご質問
+      </h2>
+    </div>
+
+    <div class="space-y-4" id="faq-container">
+
+      <div class="faq-item border border-navy-100 rounded-2xl overflow-hidden">
+        <button class="faq-trigger w-full flex items-center justify-between p-6 text-left hover:bg-navy-50 transition-colors">
+          <div class="flex items-center gap-4">
+            <span class="bg-navy-800 text-gold-400 font-black text-sm w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0">Q</span>
+            <p class="font-bold text-navy-800">インプラント手術は痛いですか？</p>
+          </div>
+          <span class="faq-icon text-navy-400 text-2xl font-light flex-shrink-0 ml-4">＋</span>
+        </button>
+        <div class="faq-answer">
+          <div class="px-6 pb-6 pt-2">
+            <div class="flex gap-4">
+              <span class="bg-gold-400 text-white font-black text-sm w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">A</span>
+              <p class="text-navy-600 text-sm leading-7">手術中は局所麻酔を使用しますので、痛みはほとんど感じません。術後は数日間、軽い腫れや違和感が出ることがありますが、処方する痛み止めで対応できます。当院では患者様の不安を取り除くため、手術前に十分な説明を行っております。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item border border-navy-100 rounded-2xl overflow-hidden">
+        <button class="faq-trigger w-full flex items-center justify-between p-6 text-left hover:bg-navy-50 transition-colors">
+          <div class="flex items-center gap-4">
+            <span class="bg-navy-800 text-gold-400 font-black text-sm w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0">Q</span>
+            <p class="font-bold text-navy-800">手術時間はどれくらいかかりますか？</p>
+          </div>
+          <span class="faq-icon text-navy-400 text-2xl font-light flex-shrink-0 ml-4">＋</span>
+        </button>
+        <div class="faq-answer">
+          <div class="px-6 pb-6 pt-2">
+            <div class="flex gap-4">
+              <span class="bg-gold-400 text-white font-black text-sm w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">A</span>
+              <p class="text-navy-600 text-sm leading-7">1本あたり30〜60分程度が目安です。埋入する本数や骨の状態によって変わります。事前の精密検査で詳しい時間をお伝えします。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item border border-navy-100 rounded-2xl overflow-hidden">
+        <button class="faq-trigger w-full flex items-center justify-between p-6 text-left hover:bg-navy-50 transition-colors">
+          <div class="flex items-center gap-4">
+            <span class="bg-navy-800 text-gold-400 font-black text-sm w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0">Q</span>
+            <p class="font-bold text-navy-800">年齢制限はありますか？高齢でも受けられますか？</p>
+          </div>
+          <span class="faq-icon text-navy-400 text-2xl font-light flex-shrink-0 ml-4">＋</span>
+        </button>
+        <div class="faq-answer">
+          <div class="px-6 pb-6 pt-2">
+            <div class="flex gap-4">
+              <span class="bg-gold-400 text-white font-black text-sm w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">A</span>
+              <p class="text-navy-600 text-sm leading-7">上限の年齢制限はございません。院長は大阪歯科大学附属病院で<strong>高齢者歯科医局長</strong>を務めた経験があり、高齢者のインプラント治療に豊富な知識と実績があります。全身疾患や骨の状態など、個別の状況を丁寧に確認した上で最適な治療方針をご提案します。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item border border-navy-100 rounded-2xl overflow-hidden">
+        <button class="faq-trigger w-full flex items-center justify-between p-6 text-left hover:bg-navy-50 transition-colors">
+          <div class="flex items-center gap-4">
+            <span class="bg-navy-800 text-gold-400 font-black text-sm w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0">Q</span>
+            <p class="font-bold text-navy-800">費用はどのくらいかかりますか？</p>
+          </div>
+          <span class="faq-icon text-navy-400 text-2xl font-light flex-shrink-0 ml-4">＋</span>
+        </button>
+        <div class="faq-answer">
+          <div class="px-6 pb-6 pt-2">
+            <div class="flex gap-4">
+              <span class="bg-gold-400 text-white font-black text-sm w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">A</span>
+              <p class="text-navy-600 text-sm leading-7">症例・本数・使用するインプラントの種類によって異なります。無料カウンセリングにてお口の状態を確認した後、詳細な費用をご説明します。分割払いのご相談も承りますので、お気軽にお問い合わせください。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item border border-navy-100 rounded-2xl overflow-hidden">
+        <button class="faq-trigger w-full flex items-center justify-between p-6 text-left hover:bg-navy-50 transition-colors">
+          <div class="flex items-center gap-4">
+            <span class="bg-navy-800 text-gold-400 font-black text-sm w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0">Q</span>
+            <p class="font-bold text-navy-800">健康保険は使えますか？</p>
+          </div>
+          <span class="faq-icon text-navy-400 text-2xl font-light flex-shrink-0 ml-4">＋</span>
+        </button>
+        <div class="faq-answer">
+          <div class="px-6 pb-6 pt-2">
+            <div class="flex gap-4">
+              <span class="bg-gold-400 text-white font-black text-sm w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">A</span>
+              <p class="text-navy-600 text-sm leading-7">インプラント治療は基本的に自由診療（保険適用外）となります。ただし、医療費控除の対象となりますので、確定申告で還付を受けることができます。詳しくはカウンセリング時にご説明いたします。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item border border-navy-100 rounded-2xl overflow-hidden">
+        <button class="faq-trigger w-full flex items-center justify-between p-6 text-left hover:bg-navy-50 transition-colors">
+          <div class="flex items-center gap-4">
+            <span class="bg-navy-800 text-gold-400 font-black text-sm w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0">Q</span>
+            <p class="font-bold text-navy-800">インプラントはどれくらい長持ちしますか？</p>
+          </div>
+          <span class="faq-icon text-navy-400 text-2xl font-light flex-shrink-0 ml-4">＋</span>
+        </button>
+        <div class="faq-answer">
+          <div class="px-6 pb-6 pt-2">
+            <div class="flex gap-4">
+              <span class="bg-gold-400 text-white font-black text-sm w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">A</span>
+              <p class="text-navy-600 text-sm leading-7">適切なメンテナンスを継続することで、10年以上・場合によっては一生涯使い続けられるケースも多くあります。定期的なメンテナンスへの通院が長持ちの鍵です。当院では術後のサポート体制も充実しております。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     7. CLINIC INFO & ACCESS SECTION
+     ============================================================ -->
+<section class="bg-navy-50 py-24 px-6">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-16">
+      <p class="text-navy-400 text-sm font-bold tracking-widest uppercase mb-3">Clinic Info</p>
+      <h2 class="section-heading text-3xl md:text-4xl font-black text-navy-900" style="font-family:'Noto Serif JP',serif;">
+        クリニック情報・アクセス
+      </h2>
+    </div>
+
+    <div class="md:flex gap-10 items-start">
+
+      <!-- Info -->
+      <div class="md:w-1/2 mb-10 md:mb-0">
+        <div class="bg-white rounded-3xl shadow-lg p-8 border border-navy-100">
+          <h3 class="text-navy-900 font-black text-xl mb-6 pb-4 border-b border-navy-100">たなか歯科クリニック</h3>
+          <dl class="space-y-5">
+            <div class="flex gap-4">
+              <dt class="text-navy-400 text-sm font-bold w-20 flex-shrink-0 pt-0.5">📍 住所</dt>
+              <dd class="text-navy-700 text-sm leading-6">兵庫県たつの市</dd>
+            </div>
+            <div class="flex gap-4">
+              <dt class="text-navy-400 text-sm font-bold w-20 flex-shrink-0 pt-0.5">👨‍⚕️ 院長</dt>
+              <dd class="text-navy-700 text-sm leading-6">田中 栄士（歯学博士・歯科補綴学専攻）</dd>
+            </div>
+            <div class="flex gap-4">
+              <dt class="text-navy-400 text-sm font-bold w-20 flex-shrink-0 pt-0.5">🦷 診療</dt>
+              <dd class="text-navy-700 text-sm leading-6">インプラント治療・補綴・一般歯科</dd>
+            </div>
+          </dl>
+
+          <div class="mt-8 pt-6 border-t border-navy-100">
+            <a
+              href="https://www.mrweb-yoyakuv.com/sikatanaka/login/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block bg-navy-800 hover:bg-navy-700 text-white font-bold text-center py-4 rounded-xl transition-colors duration-200"
+            >
+              WEBで予約する →
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Map -->
+      <div class="md:w-1/2">
+        <div class="map-placeholder rounded-3xl overflow-hidden shadow-lg" style="height:320px;">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52694.61!2d134.5!3d34.85!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355462b1c4bcbe25%3A0x4e0bb3a1a0b09fe2!2z5YW96Zqb55yM44Gf44Gk44Gt5biC!5e0!3m2!1sja!2sjp!4v1234567890"
+            width="100%"
+            height="320"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="たなか歯科クリニック アクセスマップ"
+          ></iframe>
+        </div>
+        <p class="text-navy-500 text-xs text-center mt-3">兵庫県たつの市周辺</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     8. CLOSING / FINAL CTA SECTION
+     ============================================================ -->
+<section class="relative bg-gradient-to-br from-navy-900 via-navy-800 to-navy-700 py-28 px-6 overflow-hidden">
+  <!-- Decorations -->
+  <div class="absolute inset-0 pointer-events-none overflow-hidden">
+    <div class="absolute -top-20 -left-20 w-80 h-80 bg-navy-600/30 rounded-full blur-3xl"></div>
+    <div class="absolute -bottom-20 -right-20 w-80 h-80 bg-blue-500/20 rounded-full blur-3xl"></div>
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white/3 text-[20rem] font-black select-none leading-none">+</div>
+  </div>
+
+  <div class="max-w-3xl mx-auto text-center relative z-10">
+    <p class="text-gold-400 font-bold text-sm tracking-widest mb-6">FINAL MESSAGE</p>
+    <h2 class="text-white font-black text-3xl md:text-5xl leading-tight mb-8" style="font-family:'Noto Serif JP',serif;">
+      あなたの"食べる喜び"<br />
+      <span class="text-gold-400">取り戻しませんか？</span>
+    </h2>
+
+    <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 mb-10 text-left space-y-3">
+      <p class="text-navy-200 text-sm flex items-center gap-3">
+        <span class="text-gold-400 text-lg">✓</span>大学病院レベルの技術を地域で受けられる
+      </p>
+      <p class="text-navy-200 text-sm flex items-center gap-3">
+        <span class="text-gold-400 text-lg">✓</span>歯学博士・補綴専門の院長が直接担当
+      </p>
+      <p class="text-navy-200 text-sm flex items-center gap-3">
+        <span class="text-gold-400 text-lg">✓</span>カウンセリング無料・強引な勧誘は一切なし
+      </p>
+      <p class="text-navy-200 text-sm flex items-center gap-3">
+        <span class="text-gold-400 text-lg">✓</span>WEBから24時間いつでも予約可能
+      </p>
+    </div>
+
+    <a
+      href="https://www.mrweb-yoyakuv.com/sikatanaka/login/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="cta-pulse inline-block bg-gold-400 hover:bg-gold-500 text-white font-black text-xl px-14 py-6 rounded-full transition-all duration-200 shadow-2xl mb-4"
+    >
+      🦷 無料カウンセリングのWEB予約はこちら
+    </a>
+
+    <p class="text-navy-300 text-xs">
+      ※完全無料・強引な勧誘なし・キャンセル可能
+    </p>
+
+    <div class="mt-12 pt-8 border-t border-navy-700">
+      <p class="text-navy-300 text-sm">たなか歯科クリニック｜兵庫県たつの市</p>
+      <p class="text-navy-500 text-xs mt-2">院長：田中 栄士（歯学博士・歯科補綴学専攻）</p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-navy-900 py-6 px-6 border-t border-navy-800">
+  <div class="max-w-5xl mx-auto text-center">
+    <p class="text-navy-500 text-xs">© 2025 たなか歯科クリニック. All rights reserved.</p>
+    <p class="text-navy-600 text-xs mt-1">兵庫県たつの市 | インプラント治療・歯科補綴専門</p>
+  </div>
+</footer>
+
+
+<!-- ============================================================
+     JAVASCRIPT: FAQ accordion + header scroll
+     ============================================================ -->
+<script>
+  // FAQ Accordion
+  document.querySelectorAll('.faq-trigger').forEach(function(trigger) {
+    trigger.addEventListener('click', function() {
+      var item = this.closest('.faq-item');
+      var isOpen = item.classList.contains('open');
+
+      // Close all
+      document.querySelectorAll('.faq-item').forEach(function(i) {
+        i.classList.remove('open');
+      });
+
+      // Toggle clicked
+      if (!isOpen) {
+        item.classList.add('open');
+      }
+    });
+  });
+
+  // Sticky header background on scroll
+  var header = document.getElementById('sticky-header');
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 60) {
+      header.style.background = 'rgba(8, 21, 48, 0.98)';
+      header.style.boxShadow = '0 4px 30px rgba(0,0,0,0.4)';
+    } else {
+      header.style.background = 'rgba(8, 21, 48, 0.95)';
+      header.style.boxShadow = '0 1px 20px rgba(0,0,0,0.2)';
+    }
+  });
+</script>
+
+</body>
+</html>
